@@ -26,8 +26,8 @@ Chubaryan University Schedule Planner — это десктопное прило
 
 1.  Клонируйте репозиторий:
    
-    git clone https://github.com/ВАШ_USERNAME/chubaryan-scheduler.git
-    cd chubaryan-scheduler
+    git clone https://github.com/Morkovnik0111/Development-of-a-software-module-for-scheduling.git
+    cd Development-of-a-software-module-for-scheduling
     2.  Соберите проект:
    
     mvn clean compile
