@@ -29,9 +29,11 @@ Chubaryan University Schedule Planner — это десктопное прило
     git clone https://github.com/Morkovnik0111/Development-of-a-software-module-for-scheduling.git
     
     cd Development-of-a-software-module-for-scheduling
+    
     2.  Соберите проект:
    
     mvn clean compile
+    
     3.  Запустите приложение:
    
     mvn javafx:run
