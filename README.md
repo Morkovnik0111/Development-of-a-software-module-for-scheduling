@@ -26,16 +26,21 @@ Chubaryan University Schedule Planner — это десктопное прило
 
 1.  Клонируйте репозиторий:
    
+    ```bash
     git clone https://github.com/Morkovnik0111/Development-of-a-software-module-for-scheduling.git
-    
+    ```
+    ```bash
     cd Development-of-a-software-module-for-scheduling
-    2.  Соберите проект:
-   
-    mvn clean compile
-    3.  Запустите приложение:
-   
-    mvn javafx:run
-    ### Запуск через IDE (IntelliJ IDEA)
+    ```
+2.  Соберите проект:
+   ```bash
+     mvn clean compile
+   ```
+3.  Запустите приложение:
+   ```bash
+   mvn javafx:run
+   ```
+   ### Запуск через IDE (IntelliJ IDEA)
 1.  Импортируйте проект как Maven проект.
 2.  Убедитесь, что в настройках проекта установлен JDK 11+.
 3.  Добавьте конфигурацию запуска для JavaFX, указав:
@@ -68,9 +73,16 @@ Chubaryan University Schedule Planner — это десктопное прило
 4.  Сохраните изменения после завершения редактирования
 
 ### Экспорт расписания
+
 // Пример экспорта в различные форматы
+```bash
 exportService.exportToPDF(schedule, "расписание_осень_2024.pdf");
-exportService.exportToExcel(schedule, "schedule_autumn_2024.xlsx");## 4. Структура репозитория
+exportService.exportToExcel(schedule, "schedule_autumn_2024.xlsx");
+```
+
+## 4. Структура репозитория
+
+```bash
 chubaryan-scheduler/
 ├── src/main/java/com/chubaryan/scheduler/
 │   ├── controller/           # JavaFX контроллеры
@@ -106,7 +118,7 @@ java         # Алгоритм поиска с запретами
 │       ├── import-wizard.fxml        # Мастер импорта
 │       └── export-dialog.fxml        # Диалог экспорта
 └── pom.xml                   # Maven конфигурация## 5. Технические требования
-
+```
 *   Язык программирования: Java 11+
 *   GUI фреймворк: JavaFX 17+
 *   Система сборки: Maven 3.6+
