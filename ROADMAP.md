@@ -108,6 +108,5 @@
 * Product Owner	Марк Чубарян
 
 # 4. Дорожная карта
-
-                   https://ibb.co/V6Wh1WD
+  ![RoadMap](SCR-20251128-jowc.png)
 
