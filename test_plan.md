@@ -36,6 +36,7 @@
 - TestFX (UI-тесты)
 - Excel/Google Sheets для тест-кейсов
 - Google Forms для сбора отзывов
+- https://forms.gle/dZVvUoGtRXrMqGyB8
 
 ## 6. Критерии входа
 - Проект успешно собирается (`mvn clean compile`)
